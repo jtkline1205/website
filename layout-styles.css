@@ -15,18 +15,47 @@ body {
   line-height:1.428571429;
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;font-weight:normal;line-height:1.1;color:#333}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{font-weight:normal;line-height:1}
-h1,.h1{font-size:45px;line-height:48px}
-h2,.h2{font-size:36px;line-height:42px}
-h3,.h3{font-size:28px;line-height:36px}
-h4,.h4{font-size:24px;line-height:25px}
-h5,.h5{font-size:20px;line-height:24px}
-h6,.h6{font-size:18px;line-height:24px}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight:normal;
+    line-height:1.1;
+    color:#333
+}
 
-a{color:#3282e6;}
-a:hover,a:focus{color:#165db5;text-decoration:underline}
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small{
+    font-weight:normal;
+    line-height:1
+}
 
-.text-center{text-align:center}
+h1,.h1{
+    font-size:45px;line-height:48px
+}
+h2,.h2{
+    font-size:36px;line-height:42px
+}
+h3,.h3{
+    font-size:28px;line-height:36px
+}
+h4,.h4{
+    font-size:24px;line-height:25px
+}
+h5,.h5{
+    font-size:20px;
+}
+h6,.h6{
+    font-size:18px;
+}
+
+a{
+    color:#3282e6;
+}
+a:hover,a:focus{
+    color:#165db5;text-decoration:underline
+}
+
+.text-center{
+    text-align:center
+}
 
 .wrap {
   min-height: 100%;
@@ -58,10 +87,6 @@ a:hover,a:focus{color:#165db5;text-decoration:underline}
   padding-bottom: 60px;
 }
 
-.coming-soon-wrap {
-  margin-top: 90px;
-}
-
 .frowny-face {
   text-align: center;
   font-size: 130px;
@@ -69,10 +94,6 @@ a:hover,a:focus{color:#165db5;text-decoration:underline}
   line-height: 1.1;
   margin-top: 90px;
   margin-bottom: 70px;
-}
-
-.welcome-container h1 {
-  margin-bottom: 1em;
 }
 
 .btn-primary {
@@ -147,7 +168,6 @@ button, input, select, textarea {
 
 .login-container {
   text-align: right;
-  margin: 20px;
 }
 
 .footer {

@@ -4,70 +4,163 @@
     <title>John T Kline</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/css">
-
-      body {
-        /*background: linear-gradient(90deg, white, gray);*/
-        background-color: #eee;
-      }
-
-      body, h1, p {
-        font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
-        font-weight: normal;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-      }
-
-      .container {
-        margin-left:  auto;
-        margin-right:  auto;
-        margin-top: 177px;
-        max-width: 1170px;
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-
-      .row:before, .row:after {
-        display: table;
-        content: " ";
-      }
-
-      h1 {
-        font-size: 48px;
-        font-weight: 300;
-        margin: 0 0 20px 0;
-      }
-
-      .lead {
-        font-size: 21px;
-        font-weight: 200;
-        margin-bottom: 20px;
-      }
-
-      p {
-        margin: 0 0 10px;
-      }
-
-      a {
-        color: #3282e6;
-        text-decoration: none;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="layout-styles.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
   </head>
 
   <body>
-    <div class="container text-center" id="error">
+    <div class="container" id="error">
       <div>
-        <div>
+        <div class="text-center">
           <h1>John T Kline</h1>
-          <p class="lead">Software Engineer</p>
-          <p class="lead">Java</p>
-          <p class="lead">Javascript</p>
-          <p class="lead">SQL</p>
+          <h4>Software Engineer</h4>
+          <h6>Java | Javascript | SQL | Scrum</h6>
+        </div>
+        <hr/>
+        <div class="software-development-bookshelf">
+          <h5>
+            My Bookshelf
+          </h5>
+          <h6>
+            Here's what I'm reading:
+          </h6>
+          <table class="bookshelf-table">
+            <tr>
+              <td>
+                <img src="tdd.jpeg" width="100px"/> <br/>
+                I've started this and I'm excited to learn more about how the 3 steps of TDD lead to great software.
+              </td>
+              <td>
+                <img src="continuous_delivery.jpeg" width="100px"/> <br/>
+                Continuous Integration and Continuous Delivery have been done in different ways at the companies I've
+                worked. I look forward to reading
+                through this one to see if there are best practices that can be followed for CD, no matter which
+                technologies or tools are being used.
+              </td>
+              <td>
+                <img src="essential_scrum.jpeg" width="100px"/> <br/>
+                I started this one back when I was working as ScrumMaster for one of the teams I was on. It was helpful
+                as a primer on the different Scrum ceremonies and the different roles there are on a Scrum team. I
+                definitely want to finish this one so I can help identify issues with Scrum teams I'm a part of in the
+                future and help correct them.
+              </td>
+              <td>
+                <img src="clean_code.jpeg" width="100px"/> <br/>
+                I/ve really enjoyed working through this one; I haven't finished it but it has a lot of good reference
+                points for how clean code should look in general. Developers have varying opinions about clean code,
+                but I think it's cool how this book attempts to set a baseline.
+              </td>
+              <td>
+                <img src="design_patterns.jpeg" width="100px"/> <br/>
+                This one has been fun to step through - I especially enjoy the quirky examples that accompany each
+                pattern, and the different types of sections in the book (like Q&A's, interviews, diagrams) that
+                help keep the content fresh and exciting. Maybe after I finish this I'll check out the Gang of Four
+                book on Design Patterns.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="coders_at_work.jpeg" width="100px"/> <br/>
+                I haven't started this yet but it sounded like it would be a cool window into different types of
+                software professions.
+              </td>
+              <td>
+                <img src="pro_git.jpeg" width="100px"/> <br/>
+                This book has been helpful as I've gotten started learning Git, having come from an SVN background.
+                I've preferred to use Git on the command line rather than using a tool like SourceTree, so having
+                a reference like this is helpful.
+              </td>
+              <td>
+                <img src="five_dysfunctions.jpeg" width="100px"/> <br/>
+                I thought this was an interesting take on the common issues affecting teams both large and small, executive
+                and non-executive - even though the account was fictional, the constructs surrounding team
+                dysfunctions were very real and I could apply them mentally to teams I have been on in the past.
+              </td>
+              <td>
+                <img src="intelligent_investor.jpeg" width="100px"/> <br/>
+                I didn't have much of a formal financial education, so investing and money management has been a
+                new concept for me. I've heard a lot about Benjamin Graham and his ideas about value investing, and
+                how his ideas have stood the test of time. I intend to finish this one as soon as possible.
+              </td>
+            </tr>
+          </table>
+        </div>
+        <hr/>
+        <div>
+          <h5>
+            Newswire
+          </h5>
+          <h6>
+            This is a space for me to log events that have occurred at companies I've worked.
+          </h6>
+          <h6>
+            <a href="http://www.yodle.com/" target="_blank">Yodle</a> / <a href="http://www.web.com">Web.com</a>
+          </h6>
+          <ul>
+            <li><a href="https://www.bizjournals.com/jacksonville/news/2018/10/10/web-com-shareholders-decide-on-2-24-billion-sale.html" target="_blank">Web.com shareholders decide on $2.24B sale</a></li>
+            <li><a href="https://www.marketwatch.com/story/webcom-to-be-acquired-by-siris-capital-in-all-cash-deal-valued-at-about-2-billion-2018-06-21" target="_blank">Web.com to be acquired by Siris Capital in all cash deal valued at $2B</a></li>
+            <li><a href="https://globenewswire.com/news-release/2017/11/01/1172601/0/en/Web-com-Announces-Acquisition-of-Acquisio-A-Leader-in-Online-Marketing-Artificial-Intelligence.html" target="_blank">Web.com announces acquisition of Acquisio</a> </li>
+            <li><a href="https://therealdeal.com/2017/03/03/yodle-sublets-56k-sf-at-330-west-34th-street-to-outcome-health/" target="_blank">Yodle sublets 56k SF at 330 W 34th St to Outcome Health</a></li>
+            <li><a href="https://www.forbes.com/sites/knowledgewharton/2016/04/07/yodle-how-a-startup-went-from-birth-to-buyout/#251b4a597961" target="_blank">Yodle: how a startup went from birth to buyout</a></li>
+            <li><a href="https://www.bizjournals.com/newyork/news/2016/02/11/yodle-agrees-to-342takeover-offer-from-web-com.html" target="_blank">Yodle agrees to $342M takeover from Web.com</a></li>
+            <li><a href="https://businessfacilities.com/2015/04/yodle-expands-in-new-york-city/" target="_blank">Yodle expands in NYC</a></li>
+            <li><a href="https://therealdeal.com/2014/07/28/ad-platform-yodle-sets-up-hq-at-vornados-330-west-34th/" target="_blank">Yodle sets up HQ at Vornado's 330 W 34th</a></li>
+            <li><a href="https://www.bizjournals.com/newyork/news/2013/03/04/yodle-acquires-lighthouse-practice.html" target="_blank">Yodle acquires Lighthouse practice management group</a></li>
+          </ul>
+          <hr/>
+
+          <h6>
+            <a href="https://www.sapientgovernmentservices.com/us/about-us.html" target="_blank">Sapient Government Services</a>
+          </h6>
+          <ul>
+            <li><a href="https://www.adweek.com/agencies/publicis-groupe-merges-global-digital-networks-sapient-and-razorfish-174699/" target="_blank">Publicis merges Sapient and Razorfish</a></li>
+            <li><a href="https://adage.com/article/agency-news/publicis-acquire-digital-giant-sapient-3-7-billion/295689/" target="_blank">Publicis acquires digital giant Sapient for $3.7 billion</a></li>
+            <li><a href="https://www.businesswire.com/news/home/20140210006454/en/Sapient-Expands-Government-Services-Footprint-Acquisition-OnPoint" target="_blank">Sapient expands Government Services with acquisition of OnPoint</a></li>
+          </ul>
+          <hr/>
+        </div>
+        <hr/>
+        <div>
+          <h5>
+            The Bottom Line
+          </h5>
+
+          <h6>
+            This is a space for me to start studying company financials, so I can begin to learn a little more about
+            the language of business.
+          </h6>
+          <div class="company-financials">
+            <table>
+              <tr>
+                <td>Name</td>
+                <td>Net Sales</td>
+                <td>Net Income</td>
+                <td>Basic EPS</td>
+                <td>Cash Dividends Declared Per Share</td>
+                <td>Total Cash, Cash Eq, Marketable Sec</td>
+                <td>Total Assets</td>
+                <td>Non-Current Portion of Term Debt</td>
+                <td>Other Non-Current Liabilities</td>
+              </tr>
+              <tr>
+                <td>Apple Inc.</td>
+                <td>265,595</td>
+                <td>59,531</td>
+                <td>12.01</td>
+                <td>2.72</td>
+                <td>237,100</td>
+                <td>365,725</td>
+                <td>93,735</td>
+                <td>45,180</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <hr/>
+        <div class="text-center">
           <a href="https://www.linkedin.com/in/johntkline">LinkedIn</a> | <a href="https://github.com/jtkline1205">Github</a>
         </div>
-        <div>
+        <div class="text-center">
           Copyright John T Kline 2018
         </div>
       </div>
