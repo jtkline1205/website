@@ -19,7 +19,7 @@ class JohnHeader extends React.Component {
 	}
 }
 
-const domContainer = document.querySelector('#john-header');
-ReactDOM.render(e(JohnHeader), domContainer);
+const johnHeader = document.querySelector('#john-header');
+ReactDOM.render(e(JohnHeader), johnHeader);
 
 
