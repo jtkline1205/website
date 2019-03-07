@@ -21,5 +21,3 @@ class JohnHeader extends React.Component {
 
 const johnHeader = document.querySelector('#john-header');
 ReactDOM.render(e(JohnHeader), johnHeader);
-
-
