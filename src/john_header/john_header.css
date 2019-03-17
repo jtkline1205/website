@@ -1,0 +1,9 @@
+.textCenter {
+    text-align:center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+}

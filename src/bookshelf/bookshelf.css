@@ -1,0 +1,12 @@
+.bookshelf {
+    border: 1px solid;
+    display: flex;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding:10px;
+}
+
