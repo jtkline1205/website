@@ -1,12 +1,21 @@
 .bookshelf {
-    border: 1px solid;
+    /*border: 1px solid;*/
     display: flex;
+    width:1170px;
+    /*flex-wrap:wrap;*/
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .book {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    flex-flow: column wrap;
     border: 1px solid;
+    width:150px;
     padding:10px;
 }
 
+.bookCover {
+    height:150px;
+}

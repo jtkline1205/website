@@ -43,7 +43,7 @@ const books = [
 
 function Book(props) {
 	return <div className={style.book}>
-		<img src={props.img} width="100px"/>
+		<img src={props.img} className={style.bookCover}/>
 		{/*<br/>*/}
 		{props.description}
 	</div>
