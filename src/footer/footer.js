@@ -10,7 +10,9 @@ export default class Footer extends React.Component {
     render() {
         return <div className={style.footer}>
             <div>
-                <a href="https://www.linkedin.com/in/johntkline">LinkedIn</a> | <a href="https://github.com/jtkline1205">Github</a>
+                <a href="https://www.linkedin.com/in/johntkline">LinkedIn</a>
+                | <a href="https://github.com/jtkline1205">Github</a>
+                | <a href="/resumes/John_Kline_2019_3_01.pdf" download>Résumé</a>
             </div>
             <div>
                 Copyright John T Kline 2019
